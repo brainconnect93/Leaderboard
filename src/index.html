@@ -8,8 +8,37 @@
     <!-- <link rel="stylesheet" href="styles.css"> -->
 </head>
 <body>
-    <header>
-        <h1>leader board &#129351</h1>
-    </header>
+    <main>
+        <div class="head-bg">
+            <h1 class="head">leader board &#129351</h1>
+        </div>
+
+        <!-- for the leaderboard scores  -->
+
+        <section class="lead-container">
+
+            <!-- leaderboard score display here -->
+
+            <div class="lead-head">
+                <h2>Recent scores</h2>
+                <button type="button" class="leas-btn">Refresh</button>
+            </div>
+            <div class="lead-box">
+                <ul class="lead-items">
+
+                </ul>
+            </div>
+
+            <!-- add name and score to the leaderboard -->
+            
+            <div class="lead-score">
+                <h2>Add Your Score</h2>
+                <form action="get" id="lead-form">
+                    <input type="text" id="user-name" placeholder="Your name" name="names" required>
+                    <input type="number" id="user-score" placeholder="Your score" name="score" required>
+                </form>
+            </div>
+        </section>
+    </main>
 </body>
 </html>
