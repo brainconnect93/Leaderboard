@@ -9,6 +9,8 @@ body {
   width: 100%;
 }
 
+/* header styling */
+
 .head-bg {
     margin-top: 40px;
     width: 50%;
@@ -22,9 +24,19 @@ body {
     font-weight: 700;
 }
 
+/* leaderboard score display styling  */
+
+.lead-container {
+    border: 1px solid red;
+    display: flex;
+}
+
 .lead-head {
+    border: 1px solid red;
     width: 50%;
     margin: 30px 50px;
+    display: flex;
+    flex-direction: column;
 }
 
 .lead-box {
@@ -61,15 +73,40 @@ body {
     background: #0f0;
     border: 2px solid #000;
 }
+  
+  .lead-items {
+    width: 70%;
+    height: auto;
+    overflow-y: scroll;
+    margin: 10px 40px;
+    border: 2px solid #0f0;
+    border-radius: 12px;
+  }
+  
+  .lead-items::-webkit-scrollbar {
+    display: none;
+  }
+  
+  .lead-items li {
+    padding: 5px;
+  }
+  
+  .lead-items li:nth-child(even) {
+    background: rgba(225, 225, 225, 0.651);
+  }
 
-.lead-btn:before {
-    content: '';
-    position: absolute;
-    left: -20px;
-    top: 50%;
-    transform: translateY(-50%);
-    width: 20px;
-    height: 2px;
-    background: #0f0;
-    box-shadow: 5px -8px 0 #0f0, 5px 8px 0 #0f0;
-}
+  /* form styling  */
+
+  .lead-score {
+    border: 1px solid red;
+    width: 50%;
+    margin: 30px 50px 30px 0;
+    /* display: flex; */
+  }
+
+  .lead-score h2 {
+    border: 1px solid red;
+    margin: 30px 40px;
+    width: 70%;
+    padding: 20px 10px;
+  }
