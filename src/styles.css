@@ -6,13 +6,31 @@
   
 body {
   font-family: 'Playfair Display', sans-serif;
+  margin: 0;
+  padding: 0;
   width: 100%;
+  height: 100vh;
+  overflow: hidden;
+}
+
+.header {
+    background-image: url(./images/back-bg.jpg);
+    /* background-color: rgba(29, 43, 58, 0.2); */
+  background-size: cover;
+  opacity: 0.8;
+  height: 100%;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: 0;
+  position: absolute;
+  z-index: -1;
 }
 
 /* header styling */
 
 .head-bg {
-    margin-top: 40px;
+    /* margin-top: 40px; */
     width: 50%;
     margin-left: 20px;
 }
@@ -56,7 +74,7 @@ body {
     color: #fff;
     background-color: #1d2b3a;
     padding: 8px 20px;
-    -webkit-box-reflect: below 0px linear-gradient(transparent, #0003);
+    -webkit-box-reflect: below 0px linear-gradient(transparent, #0005);
     transition: 0.5s;
 }
 
@@ -136,7 +154,7 @@ body {
     color: #fff;
     background-color: #1d2b3a;
     padding: 8px 20px;
-    -webkit-box-reflect: below 0px linear-gradient(transparent, #0003);
+    -webkit-box-reflect: below 0px linear-gradient(transparent, #0005);
     transition: 0.5s;
     width: 22%;
 }
@@ -156,8 +174,7 @@ body {
 
 footer {
     position: fixed;
-    margin-top: 65px;
-    margin-bottom: 10px;
+    bottom: 0;
     color: #fff;
     height: 50px;
     width: 100%;
