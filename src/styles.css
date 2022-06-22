@@ -27,12 +27,10 @@ body {
 /* leaderboard score display styling  */
 
 .lead-container {
-    border: 1px solid red;
     display: flex;
 }
 
 .lead-head {
-    border: 1px solid red;
     width: 50%;
     margin: 30px 50px;
     display: flex;
@@ -52,26 +50,25 @@ body {
 }
 
 .lead-btn {
-    display: inline-block;
-    text-decoration: none;
     font-weight: 500;
     font-style: italic;
     border: 2.5px solid #0f0;
     color: #fff;
-    background-color: #000;
+    background-color: #1d2b3a;
     padding: 8px 20px;
     -webkit-box-reflect: below 0px linear-gradient(transparent, #0003);
     transition: 0.5s;
 }
 
 .lead-btn:hover {
-    color: #fff;
+    color: #1d2b3a;
     transition: 1s;
     font-size: 15px;
+    font-weight: 700;
     font-style: normal;
     box-shadow: 0 0 10px #0f0;
     background: #0f0;
-    border: 2px solid #000;
+    border: 2px solid #1d2b3a;
 }
   
   .lead-items {
@@ -98,15 +95,73 @@ body {
   /* form styling  */
 
   .lead-score {
-    border: 1px solid red;
     width: 50%;
     margin: 30px 50px 30px 0;
-    /* display: flex; */
   }
 
   .lead-score h2 {
-    border: 1px solid red;
+    font-size: 32px;
     margin: 30px 40px;
     width: 70%;
     padding: 20px 10px;
   }
+
+  #lead-form {
+    display: flex;
+    flex-direction: column;
+    margin-top: 40px;
+  }
+
+  #lead-form input {
+    width: 70%;
+    margin-bottom: 25px;
+    padding: 10px;
+    font-family: 'Playfair Display', sans-serif;
+    font-weight: bold;
+    font-style: italic;
+    border-radius: 5px;
+  }
+
+  #lead-form input:valid,
+  #lead-form input:focus {
+    background: #1d2b3a;
+    color: #0f0;
+    border: 2.5px solid #0f0;
+  }
+
+.submit-btn {
+    font-weight: 700;
+    font-style: italic;
+    border: 2.5px solid #0f0;
+    color: #fff;
+    background-color: #1d2b3a;
+    padding: 8px 20px;
+    -webkit-box-reflect: below 0px linear-gradient(transparent, #0003);
+    transition: 0.5s;
+    width: 22%;
+}
+
+.submit-btn:hover {
+    color: #1d2b3a;
+    transition: 1s;
+    font-size: 15px;
+    font-weight: 700;
+    font-style: normal;
+    box-shadow: 0 0 10px #0f0;
+    background: #0f0;
+    border: 2px solid #1d2b3a;
+}
+
+/* footer styling  */
+
+footer {
+    position: fixed;
+    margin-top: 65px;
+    margin-bottom: 10px;
+    color: #fff;
+    height: 50px;
+    width: 100%;
+    padding: 10px 30px;
+    background-color: #352f44;
+    letter-spacing: .2em;
+}
