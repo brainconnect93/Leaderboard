@@ -14,8 +14,7 @@ body {
 }
 
 .header {
-    background-image: url(./images/back-bg.jpg);
-    /* background-color: rgba(29, 43, 58, 0.2); */
+  background-image: url(./images/back-bg.jpg);
   background-size: cover;
   opacity: 0.8;
   height: 100%;
@@ -24,13 +23,11 @@ body {
   bottom: 0;
   right: 0;
   position: absolute;
-  z-index: -1;
 }
 
 /* header styling */
 
 .head-bg {
-    /* margin-top: 40px; */
     width: 50%;
     margin-left: 20px;
 }
@@ -74,7 +71,7 @@ body {
     color: #fff;
     background-color: #1d2b3a;
     padding: 8px 20px;
-    -webkit-box-reflect: below 0px linear-gradient(transparent, #0005);
+    -webkit-box-reflect: below 0px linear-gradient(transparent, #0003);
     transition: 0.5s;
 }
 
@@ -154,7 +151,7 @@ body {
     color: #fff;
     background-color: #1d2b3a;
     padding: 8px 20px;
-    -webkit-box-reflect: below 0px linear-gradient(transparent, #0005);
+    -webkit-box-reflect: below 0px linear-gradient(transparent, #0003);
     transition: 0.5s;
     width: 22%;
 }
