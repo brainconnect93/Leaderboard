@@ -21,3 +21,55 @@ body {
     font-size: 60px;
     font-weight: 700;
 }
+
+.lead-head {
+    width: 50%;
+    margin: 30px 50px;
+}
+
+.lead-box {
+    display: flex;
+    margin: 30px 40px;
+    width: 70%;
+    justify-content: space-between;
+    padding: 20px 10px;
+}
+
+.lead-box h2 {
+    font-size: 32px;
+}
+
+.lead-btn {
+    display: inline-block;
+    text-decoration: none;
+    font-weight: 500;
+    font-style: italic;
+    border: 2.5px solid #0f0;
+    color: #fff;
+    background-color: #000;
+    padding: 8px 20px;
+    -webkit-box-reflect: below 0px linear-gradient(transparent, #0003);
+    transition: 0.5s;
+}
+
+.lead-btn:hover {
+    color: #fff;
+    transition: 1s;
+    font-size: 15px;
+    font-style: normal;
+    box-shadow: 0 0 10px #0f0;
+    background: #0f0;
+    border: 2px solid #000;
+}
+
+.lead-btn:before {
+    content: '';
+    position: absolute;
+    left: -20px;
+    top: 50%;
+    transform: translateY(-50%);
+    width: 20px;
+    height: 2px;
+    background: #0f0;
+    box-shadow: 5px -8px 0 #0f0, 5px 8px 0 #0f0;
+}
