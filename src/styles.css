@@ -1,3 +1,23 @@
-h2 {
-    background-color: yellow;
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+  
+body {
+  font-family: 'Playfair Display', sans-serif;
+  width: 100%;
+}
+
+.head-bg {
+    margin-top: 40px;
+    width: 50%;
+    margin-left: 20px;
+}
+
+.head-bg h1 {
+    margin: 30px 20px;
+    padding: 20px 10px;
+    font-size: 60px;
+    font-weight: 700;
 }
