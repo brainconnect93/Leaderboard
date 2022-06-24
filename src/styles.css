@@ -37,11 +37,10 @@ body {
   padding: 20px 10px;
   font-size: 60px;
   font-weight: 700;
-  /* color: #fff; */
 }
 
 span {
-    color: #fff;
+  color: #fff;
 }
 
 /* leaderboard score display styling  */
@@ -67,7 +66,6 @@ span {
 
 .lead-box h2 {
   font-size: 32px;
-  /* color: #fff; */
 }
 
 .lead-btn {
@@ -99,8 +97,9 @@ span {
   margin: 10px 40px;
   border: 2px solid #0f0;
   border-radius: 12px;
-  box-shadow: 0 5px 0 8px rgba(0, 255, 0, 0.5),
-  5px 0 8px 0 rgba(0, 255, 0, 0.5);
+  box-shadow:
+    0 5px 0 8px rgba(0, 255, 0, 0.5),
+    5px 0 8px 0 rgba(0, 255, 0, 0.5);
 }
 
 .lead-items::-webkit-scrollbar {
@@ -111,7 +110,6 @@ span {
   padding: 5px;
   font-size: 18px;
   font-weight: 700;
-  /* color: #fff; */
 }
 
 .lead-items li:nth-child(even) {
@@ -130,7 +128,6 @@ span {
   margin: 30px 40px;
   width: 70%;
   padding: 20px 10px;
-  /* color: #fff; */
 }
 
 #lead-form {
