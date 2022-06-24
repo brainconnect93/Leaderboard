@@ -14,7 +14,7 @@ body {
 }
 
 .header {
-  background-image: url(./images/back-bg.jpg);
+  background-image: url(./images/back-img2.jpg);
   background-size: cover;
   opacity: 0.8;
   height: 100%;
@@ -37,6 +37,11 @@ body {
   padding: 20px 10px;
   font-size: 60px;
   font-weight: 700;
+  /* color: #fff; */
+}
+
+span {
+    color: #fff;
 }
 
 /* leaderboard score display styling  */
@@ -62,6 +67,7 @@ body {
 
 .lead-box h2 {
   font-size: 32px;
+  /* color: #fff; */
 }
 
 .lead-btn {
@@ -93,6 +99,8 @@ body {
   margin: 10px 40px;
   border: 2px solid #0f0;
   border-radius: 12px;
+  box-shadow: 0 5px 0 8px rgba(0, 255, 0, 0.5),
+  5px 0 8px 0 rgba(0, 255, 0, 0.5);
 }
 
 .lead-items::-webkit-scrollbar {
@@ -101,10 +109,13 @@ body {
 
 .lead-items li {
   padding: 5px;
+  font-size: 18px;
+  font-weight: 700;
+  /* color: #fff; */
 }
 
 .lead-items li:nth-child(even) {
-  background: rgba(225, 225, 225, 0.651);
+  background: rgba(0, 255, 0, 0.4);
 }
 
 /* form styling  */
@@ -119,6 +130,7 @@ body {
   margin: 30px 40px;
   width: 70%;
   padding: 20px 10px;
+  /* color: #fff; */
 }
 
 #lead-form {
