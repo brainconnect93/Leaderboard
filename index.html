@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;0,500;0,700;1,400&display=swap" rel="stylesheet">
+    <title>&#129351My leaderboard</title>
+    <!-- <link rel="stylesheet" href="styles.css"> -->
+<script defer src="bundle.js"></script></head>
+<body>
+    <main class="header">
+        <div class="head-bg">
+            <h1 class="head">Leader<span>board</span>&#129351</h1>
+        </div>
+
+        <!-- for the leaderboard scores  -->
+
+        <section class="lead-container">
+
+            <!-- leaderboard score display here -->
+
+            <div class="lead-head">
+                <div class="lead-box">
+                    <h2>Recent  <span>scores</span></h2>
+                    <button type="button" class="lead-btn">Refresh</button>
+                </div>
+                <ul class="lead-items">
+                </ul>
+            </div>
+
+            <!-- add name and score to the leaderboard -->
+
+            <div class="lead-score">
+                <h2>Add <span>Your</span> Score</h2>
+                <form action="get" id="lead-form">
+                    <input type="text" id="user-name" placeholder="Your name" name="names" required>
+                    <input type="number" id="user-score" placeholder="Your score" name="score" required>
+                    <button type="submit" class="submit-btn">Submit</button>
+                </form>
+            </div>
+        </section>
+    </main>
+
+    <!-- footer section -->
+    <footer>
+        <p>Ⓒcopyright 2022_ Afolabi's leaderboard project &#128111</p>
+    </footer>
+</body>
+</html>
