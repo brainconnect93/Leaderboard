@@ -7,7 +7,7 @@ This application displays scores submitted by different players from an API serv
 
 ## Live Demo
 
-......In progress
+[Link to live demo](https://brainconnect93.github.io/Leaderboard/)
 
 
 ## Built With
