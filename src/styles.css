@@ -79,7 +79,7 @@ span {
   background-color: #1d2b3a;
   padding: 8px 20px;
   -webkit-box-reflect: below 0 linear-gradient(transparent, #0003);
-  transition: 0.5s;
+  transition: 2.5s;
 }
 
 .lead-btn:hover {
@@ -164,7 +164,7 @@ span {
   background-color: #1d2b3a;
   padding: 8px 20px;
   -webkit-box-reflect: below 0 linear-gradient(transparent, #0003);
-  transition: 0.5s;
+  transition: 2.5s;
   width: 22%;
 }
 
@@ -181,17 +181,8 @@ span {
 
 /* footer styling  */
 
-footer {
-  position: absolute;
-  bottom: 0;
-  top: 0;
-  margin-top: 50%;
-  color: #fff;
-  height: 50px;
-  width: 100%;
-  padding: 10px 30px;
-  background-color: #352f44;
-  letter-spacing: 0.2em;
+.footer {
+  display: none;
 }
 
 @media screen and (max-width: 768px) {
@@ -270,7 +261,7 @@ footer {
     background-color: #1d2b3a;
     padding: 8px 20px;
     -webkit-box-reflect: below 0 linear-gradient(transparent, #0003);
-    transition: 0.5s;
+    transition: 2s;
     width: 22%;
     margin-left: 16%;
     margin-top: 10px;
