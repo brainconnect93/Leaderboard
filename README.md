@@ -27,11 +27,29 @@ This application displays scores submitted by different players from an API serv
 To get a local copy up and running follow these simple example steps.
 
 ### Prerequisites
-- IDE (Atom/Visual studio code)
+```
+node js
+npm
+```
 
 ### Setup
-- You can download the file directly by downloading as a zip file directly from github.
-- Alternatively, you can clone the repository by running the git clone command. 
+Clone the repository and change the directory to leaderboard
+```
+$ git clone git@github.com:brainconnect93/Leaderboard.git
+$ cd Leaderboard
+```
+
+### Install
+Install all project dependencies by running the command below
+```
+$ npm install
+$ npm run build
+```
+
+### Usage
+```
+$ npm start
+```
 
 
 ## Authors
