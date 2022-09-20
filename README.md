@@ -5,8 +5,7 @@
 This application displays scores submitted by different players from an API service. It also allows a user to submit his/her score while preserving the data on the browser.
 
 ### Leaderboard screenshot
-> ![board](https://user-images.githubusercontent.com/78634841/188435594-d7d40cff-4c57-4780-b11a-cb1b745f9ac7.png)
-![board1](https://user-images.githubusercontent.com/78634841/188435614-5146a294-5a29-43ac-aa5a-a63b41100676.png)
+![board](https://user-images.githubusercontent.com/78634841/188435594-d7d40cff-4c57-4780-b11a-cb1b745f9ac7.png)
 ![board2](https://user-images.githubusercontent.com/78634841/188435639-42d29265-648b-4ed2-b81d-de68e5fbeb43.png)
 
 
