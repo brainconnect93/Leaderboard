@@ -9,11 +9,6 @@ This application displays scores submitted by different players from an API serv
 ![board2](https://user-images.githubusercontent.com/78634841/188435639-42d29265-648b-4ed2-b81d-de68e5fbeb43.png)
 
 
-## Live Demo
-
-[Link to live demo](https://brainconnect93.github.io/Leaderboard/)
-
-
 ## Built With
 
 - HTML
