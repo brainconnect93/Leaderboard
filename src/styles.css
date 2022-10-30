@@ -16,18 +16,6 @@ body {
   overflow-x: scroll;
 }
 
-/* .header {
-  background-image: url(./images/back-img2.jpg);
-  background-size: cover;
-  opacity: 0.8;
-  height: 100%;
-  top: 0;
-  left: 0;
-  bottom: 0;
-  right: 0;
-  position: absolute;
-} */
-
 /* header styling */
 
 .head-bg {
@@ -249,7 +237,6 @@ span {
     font-weight: bold;
     font-style: italic;
     border-radius: 5px;
-    border: 1px solid red;
     margin: 10px 15%;
   }
 

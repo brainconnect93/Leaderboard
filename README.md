@@ -6,13 +6,6 @@ This application displays scores submitted by different players from an API serv
 
 ### Leaderboard screenshot
 ![board](https://user-images.githubusercontent.com/78634841/188435594-d7d40cff-4c57-4780-b11a-cb1b745f9ac7.png)
-![board2](https://user-images.githubusercontent.com/78634841/188435639-42d29265-648b-4ed2-b81d-de68e5fbeb43.png)
-
-
-## Live Demo
-
-[Link to live demo](https://brainconnect93.github.io/Leaderboard/)
-
 
 ## Built With
 
