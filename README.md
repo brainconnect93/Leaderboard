@@ -14,6 +14,9 @@ This application displays scores submitted by different players from an API serv
 - Javascript (ES6)
 - Webpack, and served by a Webpack dev server
 
+## Live Demo
+[Live Demo Link](https://polite-stardust-6e114f.netlify.app/)
+
 ## Getting Started
 
 To get a local copy up and running follow these simple example steps.
